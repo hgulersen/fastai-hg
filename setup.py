@@ -108,13 +108,13 @@ dep_groups = {
         pynvx>=1.0.0 ; platform_system=="Darwin"  # only pypi at the moment
         requests
         scipy
-        torch>=1.0.0
+       # torch>=1.0.0
 """),
     'text':   to_list("""
         spacy>=2.0.18
 """),
     'vision': to_list("""
-        torchvision
+       # torchvision
 """),
 }
 
