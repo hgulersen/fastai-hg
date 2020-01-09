@@ -179,7 +179,7 @@ test_requirements = to_list("""
 setup(
     cmdclass = { 'deps': DepsCommand },
 
-    name = 'fastai2',
+    name = 'fastai_hg',
     version = __version__,
 
     packages = find_packages(),
