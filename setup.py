@@ -181,7 +181,7 @@ test_requirements = to_list("""
 setup(
     cmdclass = { 'deps': DepsCommand },
 
-    name = 'fastai',
+    name = 'fastai2',
     version = __version__,
 
     packages = find_packages(),
